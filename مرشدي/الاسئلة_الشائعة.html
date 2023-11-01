@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+ 
+
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+  <!-- Disable tap highlight on IE -->
+  
+  <meta name="msapplication-tap-highlight" content="no">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+  <link href="" rel="stylesheet">
+  <title>Title page</title>
+<link href="./main.550dcf66.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  body{
+    background-color: white;
+  }
+  h1 {
+  text-align: center;
+}
+
+/* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
+
+.accordion {
+  width: 800px;
+  margin: 30px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+}
+.accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
+
+/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+
+.accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 780px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+/* Adds a horizontal line between the contents */
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+
+.accordion .container.active .content {
+  height: 150px;
+}
+
+/* Changes from plus sign to negative sign once active */
+
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
+</style>
+</head>
+<body> <!-- Add your content of header -->
+  <header>
+    <nav class="navbar navbar-default active">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html" title="">
+            <img src="./assets/images/mashup-icon.svg" class="navbar-logo-img" alt="">
+           مُرشدي
+          </a>
+        </div>
+  
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a href="استفسار.html" title=""> لم أجد استفساري ؟</a></li>
+            <li><a href="الاسئلة_الشائعة.html" title="">الاسئلة الشائعة </a></li>
+            <li><a href="index.html" title="">الصفحة الرئيسية</a></li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+  </header>
+
+<div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="accordion-body">
+            <div class="accordion">
+              <h1>الاسئلة الشائعة</h1>
+              <hr>
+              <div class="container">
+                <div class="label"> عند الرسوب بمقرر هل يمكن الحصول على مرتبة الشرف ؟</div>
+                <div class="content">من شروط الحصول على مرتبة الشرف عدم الرسوب بمقرر </div>
+              </div>
+              <hr>
+              <div class="container">
+                <div class="label">هل التدريب الصيفي يكون به مكافاة مالية ؟</div>
+                <div class="content">
+                بعض الجهات تقدم مكافاة مالية واخرى لا.
+          </div>
+              </div>
+              <hr>
+              <div class="container">
+                <div class="label">ما هي الية تقديم القسم للمقررات ؟ </div>
+                <div class="content">يتم تقديم مقررات المستويات الفردية في الفصول الفردية ومقررات المستويات الزوجية في الفصول الزوجية</div>
+              </div>
+              <hr>
+              <div class="container">
+                <div class="label">ما هي مواعيد الحذف و الاضافة ؟ </div>
+                <div class="content"> 
+                  يتم الاعلان عن التقويم الجامعي الذي يحتوي على المواعيد الهامة مثل الحذف والاضافة و الانسحاب في حساب عمادة القبول والتسجيل في تويتر 
+            <a
+              href="https://twitter.com/tuadtw">اضغط هنا الانتقال لحساب العمادة </a>
+                </div>
+              </div>
+              <hr>
+              <div class="container">
+                <div class="label">اواجه مشاكل  بالدخول على خدمتك او البلاك بورد ؟</div>
+                <div class="content"> 
+                  <a
+                  href="https://www.taibahu.edu.sa/Pages/AR/CustomPage.aspx?ID=197
+                  ">اضغط هنا من اجل الانتقال للتواصل مع الدعم الفني </a>
+                </div>
+              </div>
+              <hr>
+              <div class="container">
+                <div class="label"> هل يمكن التحويل ان كان حالتي الدراسية معتذرا او موجلا ؟ </div>
+                <div class="content"> 
+نعم
+                </div>
+              </div>
+              <hr>
+              <div class="container">
+                <div class="label"> هل الانسحاب من مقرر يمنع الحصول على مرتبة الشرف ؟</div>
+                <div class="content"> 
+لا، إلا في حال أدى إلى التعثر الشديد، و بالتالي تجاوز المدة النظامية للتخرج .
+                </div>
+              </div>
+            </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+</div>
+<script>
+  const accordion = document.getElementsByClassName('container');
+
+for (i=0; i<accordion.length; i++) {
+  accordion[i].addEventListener('click', function () {
+    this.classList.toggle('active')
+  })
+}
+</script>
+
+<hr style="color: white; ">
+<!---->
+<footer class="footer-container white-text-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+          </div>
+          <div class="col-xs-12 col-sm-5">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+    scrollRevelation('.reveal');
+  });
+</script>
+ <script type="text/javascript" src="./main.0cf8b554.js"></script></body>
+
+</html>
